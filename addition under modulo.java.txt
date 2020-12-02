@@ -1,0 +1,14 @@
+class Solution {
+    public static long sumUnderModulo(long a, long b){
+       
+long c= a%1000000007;
+long d= b%1000000007;
+long result;
+result=c+d;
+if(result>1000000007)
+{
+result=result%1000000007;
+}
+return result;
+    }   
+}
