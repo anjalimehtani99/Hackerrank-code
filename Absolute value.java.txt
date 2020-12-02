@@ -1,0 +1,16 @@
+class Absolute {
+    public int absolute(int I) {
+        // int X;
+        // X=Math.abs(I);
+        // return X;
+        if(I<0)
+        {
+            I=(-1)*I;
+            return I;
+        }
+        else
+        {
+            return I;
+        }
+    }
+}
